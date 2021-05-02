@@ -29,3 +29,10 @@ https://github.com/Burch531/Fitness_Tracker
 - Please send any questions to jburchell531@gmail.com
 ## GitHub
 (https://github.com/Burch531)
+
+Screenshot of a Fitness Tracker that is created 
+
+![FitnessScreenshot](./assets/Tracker.PNG)
+
+![WorkoutScreenshot](./assets/Workout.PNG)
+
