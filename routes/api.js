@@ -6,9 +6,10 @@ const db = require("../models");
 router.get("/api/workouts", (req, res) => {
     db.Workout.find()
         .then(dbWorkout => {
-            res.json(dbWorkout);
+            res.status(200).json(dbWorkout);
         })
         .catch(err => {
+            console.log(err)
             res.status(400).json(err);
 
         })
